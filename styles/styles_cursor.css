@@ -1,0 +1,18 @@
+* {
+	cursor: none;
+}
+
+.cursor {
+	opacity: 0%;
+	z-index: 25;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1.5%;
+	/*
+	border: 2px solid white;
+	border-radius: 32px;
+	*/
+
+	pointer-events: none;
+}

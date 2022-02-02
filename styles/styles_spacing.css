@@ -1,0 +1,274 @@
+body,html {
+	margin: 0;
+	padding: 1vh 0 1vh 0;
+	width:100%;
+}
+
+.centered-popup {
+    position: fixed;
+	width: inherit;
+}
+
+.div-hlist {
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	z-index: 20;
+}
+
+.div-vlist {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+}
+
+.margintop {
+	margin-top: 1rem;
+}
+
+.marginbot {
+	margin-bottom: 1rem;
+}
+
+article {
+	width: 320px;
+	height: auto;
+}
+
+.article-title {
+	margin-block-start: 0.4em;
+	margin-block-end: 0.4em;
+}
+
+.padded-content {
+	margin: 1vh 0 1vh 0;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.flexed-row {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexed-column {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.div-header-col {
+	margin: .5vh;
+	width: var(--custom_width);
+	height: 100%;
+}
+
+.fill-to-available {
+	box-sizing: border-box;
+	height: 100%;
+}
+
+
+.vertical-padding-1 {
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+}
+
+.padding-1 {
+	padding: 1vh;
+}
+
+.vertical-margin-1 {
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.margin-1 {
+	margin: 1vh;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	position:fixed;
+
+	height: 3%;
+	bottom: 0;
+	width: 100%;
+}
+
+footer p {
+	margin: 0 1% 0 1%;
+}
+
+.gallery {
+	margin: 10vh 0 0 0;
+}
+
+/*
+#container{
+	width: 920px;
+	left: 50%;
+	margin-left:-460px;
+	position:relative;
+	margin-top: 20px;
+}
+
+#header{
+	margin-left:9px;
+}
+
+#menu{
+	display:block;
+	height: 38px;
+	margin:0px;
+	padding:0px;
+}
+#menu li{
+	margin:0px;
+	padding:0px;
+	display:block;
+	float:right;
+	height:38px;
+	margin-left:1px;
+}
+
+#menua{
+	display:block;
+	float:left;
+	height:12px;
+	font-size:12px;
+	padding:13px;
+	margin:0px;
+	text-decoration:none;
+	color:white;
+	background:#264C71 url('images/menu.jpg') repeat-x;
+}
+
+#menuhover{
+	display:block;
+	float:left;
+	height:12px;
+	font-size:12px;
+	padding:13px;
+	margin:0px;
+	text-decoration:none;
+	color:#012C57;
+	background:#264C71 url('images/menuhover.jpg') repeat-x;
+}
+
+
+#menua:hover{
+	color:lightgrey;
+}
+
+#menuleft{
+	float:left;
+	background:#264C71 url('images/menuleft.jpg') repeat-x;
+	height:38px;
+	width:2px;
+}
+
+#menulefthover{
+	float:left;
+	background:#264C71 url('images/menulefthover.jpg') repeat-x;
+	height:38px;
+	width:2px;
+}
+
+#menuright{
+	float:left;
+	background:#264C71 url('images/menuright.jpg') repeat-x;
+	height:38px;
+	width:2px;
+}
+#menurighthover{
+	float:left;
+	background:#264C71 url('images/menurighthover.jpg') repeat-x;
+	height:38px;
+	width:2px;
+}
+
+#content{
+	background: #D2EFFF url('images/content.jpg') repeat-x;
+	width:828px;
+	padding:46px;
+	padding-top:44px;
+}
+#content h1{
+	margin:0px;
+	padding:0px;
+	color: #37404C;
+}
+#content p, ul{
+	color:#6B6B6B;
+	font-size:13px;
+}
+
+#topcontent{
+	background: #D2EFFF url('images/topcontent.jpg') repeat-x;
+	width:920px;
+	height:2px;
+}
+#botcontent{
+	background: #D2EFFF url('images/contentbot.jpg') repeat-x;
+	width:920px;
+	height:2px;
+}
+#footer{
+	margin-top:5px;
+	color:#81ACCE;
+	width:920px;
+	height:15px;
+	text-align:center;
+	font-size:14px;
+}
+#contentleft{
+	width:570px;
+	float:left;
+}
+#banner{
+	display:block;
+	height:602px;
+	width:162px;
+	background: url('images/banner.jpg');
+	float:right;
+}
+*/
+
+
+/* PHP info styling */
+/*
+pre {margin: 0px; font-family: monospace;}
+a:link {color: #000099; text-decoration: none; background-color: #ffffff;}
+a:hover {text-decoration: underline;}
+table {border-collapse: collapse;}
+.center {text-align: center;}
+.center table { margin-left: auto; margin-right: auto; text-align: left;}
+.center th { text-align: center !important; }
+td, th { border: 1px solid #000000; font-size: 75%; vertical-align: baseline;}
+h1 {font-size: 150%; color:white;}
+h2 {font-size: 125%;}
+.p {text-align: left; display:none}
+.e { font-weight: bold; color: #000000;}
+.h {font-weight: bold; color: white;}
+.v {word-break:break-all; color: #000000;}
+.vr {background-color: #cccccc; text-align: right; color: #000000;}
+.h img{	display:none;}
+.h { background-color: #2D649C; color:white; }
+hr {width: 600px; background-color: #cccccc; border: 0px; height: 1px; color: #000000;}
+*/
+			

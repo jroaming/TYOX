@@ -1,0 +1,89 @@
+.vertical-form-popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_compressed_form {
+    width: 16rem;
+    background-color: rgba(0, 0, 0, .8);
+    border: 1px dotted white;
+    margin: .5rem;
+    padding: 1rem;
+}
+
+form h1 {
+    color: white;
+    font-weight: lighter;
+}
+
+.modified-button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin: .25rem;
+    width: 6rem;
+    height: 1.5rem;
+    
+    color: black;
+}
+
+.modified-input {
+    border: none;
+    border-radius: 0;
+    margin: .25rem;
+    height: 1.25rem;
+
+    text-align: center;
+    color: white;
+    background-color: black;
+
+    border: 1px solid rgb(100,100,100);
+}
+
+.modified-input:focus {
+    outline: none;
+    background-color: rgb(30, 30, 30);
+}
+
+.modified-button:active {
+    background-color: black;
+    color: white;
+}
+
+.subgreen:hover {
+    background-color: rgb(197, 255, 195);
+}
+
+.subgreen:focus {
+    outline: none;
+    background-color: rgb(27, 206, 27);
+}
+
+.subred {
+    background-color: rgb(199, 199, 199);
+}
+.subred:hover {
+    background-color: rgb(209, 170, 170);
+}
+.subred:focus {
+    outline: none;
+    background-color: rgb(221, 102, 102);
+}
+
+#login-register-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: min-content;
+    height: min-content;
+
+    transition: 0.15s;
+    opacity: 0;
+    z-index: 20;
+}

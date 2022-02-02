@@ -1,0 +1,76 @@
+body,html {
+	background: black url('/res/images/background.jpg') repeat-x fixed top;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+	z-index: 1;
+	background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.gallery {
+	z-index: 0;
+}
+
+.cursor-trigger {
+	opacity: 0.9;
+}
+
+.header-logo {
+	height: 7vh;
+	filter: invert(1);
+}
+
+article {
+	border: 2px inset rgba(255, 255, 255, 0.25);
+}
+.article-shirt {
+	opacity: 0.5;
+	transition: opacity 0.15s ease-in-out;
+}
+.article-shirt:hover {
+	opacity: 1;
+}
+
+.blue-sheen-hover:hover {
+	box-shadow: 0px 0px 10px 2px #0ff;
+}
+
+.green-sheen-hover:hover {
+	box-shadow: 0px 0px 10px 2px #0f0;
+}
+
+.red-sheen-hover:hover {
+	box-shadow: 0px 0px 10px 2px #f00;
+}
+
+button {
+	transition: 0.15s;
+}
+
+.article-image {
+	margin: 5% 5% 1% 5%;
+	width: -webkit-fill-available;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.article-title {
+	color: aliceblue;
+	font-weight: normal;
+	font-size: 3vh;
+}
+
+.blackened {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bluesky-tint {
+	opacity: 1;
+	box-shadow: 0px 0px 10px 1px #0ff;
+}
+
+footer {
+	color:white;
+	z-index: 1;
+	background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+}

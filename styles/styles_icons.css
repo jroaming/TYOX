@@ -1,0 +1,33 @@
+.big-icon {
+    max-width: 80px;
+    max-height: 80px;
+    
+}
+
+#div-login-actioner-popup {
+    transition: opacity 0.1s ease-in-out;
+    position: fixed;
+
+    top: 0;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    right: 0;
+
+    z-index: 19;
+
+    border-radius: 25%;
+    border: 2px solid white;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.opacity1 {
+    opacity: 1;
+}
+
+.opacity06 {
+    opacity: 0.6;
+}
+
+#div-login-actioner-popup:hover {
+    opacity: 1;
+}
